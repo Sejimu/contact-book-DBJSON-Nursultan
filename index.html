@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-book-json</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="contact-book">
+      <form class="add-contacts">
+        <input type="text" id="name-input" placeholder="Enter name" />
+        <input type="text" id="surname-input" placeholder="Enter surname" />
+        <input type="url" id="pfp-input" placeholder="Enter picture URL" />
+        <input type="number" id="number-input" placeholder="Enter ur number" />
+        <button id="add-btn">Add</button>
+      </form>
+      <div class="contact-container"></div>
+    </div>
+    <!-- !Modal -->
+    <div class="modal" id="edit-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Edit TO-DO</h3>
+          <button id="close-modal">X</button>
+        </div>
+        <input type="text" id="edit-name-input" placeholder="edit name" />
+        <input type="text" id="edit-surname-input" placeholder="edit surname" />
+        <input type="text" id="edit-picture-input" placeholder="change pfp" />
+        <input type="text" id="edit-number-input" placeholder="edit number" />
+        <div class="modal-footer">
+          <button id="edit-cancel">Cancel</button>
+          <button class="edit-submit">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

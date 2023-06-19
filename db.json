@@ -1,0 +1,32 @@
+{
+  "contacts": [
+    {
+      "name": "Nuasdfghjkjhgfdsa",
+      "surname": {},
+      "picture": "https://avatars.mds.yandex.net/i?id=725cd0f0940f4e9e9f7415e075b57c662559c72a-8375627-images-thumbs&n=13",
+      "number": "1234567",
+      "id": 1
+    },
+    {
+      "name": "Nursultan",
+      "surname": "Asan uulu",
+      "picture": "https://avatars.mds.yandex.net/i?id=725cd0f0940f4e9e9f7415e075b57c662559c72a-8375627-images-thumbs&n=13",
+      "number": "1234567",
+      "id": 2
+    },
+    {
+      "name": "qwer",
+      "surname": "1234",
+      "picture": "https://avatars.mds.yandex.net/i?id=39f5eac6372ec5204dda0ce05725767104126590-9181103-images-thumbs&n=13",
+      "number": "1234567",
+      "id": 3
+    },
+    {
+      "name": "q23456",
+      "surname": "1234567",
+      "picture": "https://avatars.mds.yandex.net/i?id=a65ebc919b22cf3201882c665a63a20977b70ade-9181142-images-thumbs&n=13",
+      "number": "12345678",
+      "id": 4
+    }
+  ]
+}
